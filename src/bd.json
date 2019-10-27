@@ -1,0 +1,34 @@
+[
+    {
+        "id": "152643",
+        "nombre": "David Villanueva",
+        "padre": "Jesus Hincapie",
+        "madre": "Gloria Gasca",
+        "barrio": "Belen",
+        "telefono": "4547519"
+    },
+    {
+        "id": "451835",
+        "nombre": "Jairo Ortiz",
+        "padre": "Jaime Echeverry",
+        "madre": "Bell Manrique",
+        "barrio": "Poblado",
+        "telefono": "2328517"
+    },
+    {
+        "id": "245189",
+        "nombre": "Juan Jose Correa",
+        "padre": "Cristian Monsalve",
+        "madre": "Daniela Villegas",
+        "barrio": "Poblado",
+        "telefono": "1451692"
+    },
+    {
+        "id": "3451892",
+        "nombre": "Daniel Sanchez",
+        "padre": "Cristian Chica",
+        "madre": "Juliana Lenis",
+        "barrio": "Manrique",
+        "telefono": "7521489"
+    }
+]
