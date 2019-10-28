@@ -8,17 +8,30 @@ router.get('/', (req,res) => {
     res.json(bd);
 });
 
-`router.get('/:barrio',(req,res) => {
-    const {barrio} = req.params;
-    const { nombre,padre, madre,telefono } = req.body;
-    _.each(bd, (dato, i)=>{
-        if(dato.barrio == barrio){
-            const rest = (nombre,padre,madre,telefono);
-        }
-        res.json(rest);
-    });
+router.get('/:barrio', (req,res) => {
+    const barrios = bd.filter(function(estudiantes){
+        return estudiantes.barrio ==  req.params.barrio;
+    })
+    res.json(barrios);
 });
-`
+
+router.get('/estadisticas/barrio', (req, res) => {
+    const barrios = [...new Set(bd.map(dato => dato.barrio))]
+    const ninosBarrio = barrios.map(barrio => ({
+        barrio, cantidad: (bd.filter(est => est.barrio === barrio)).length
+    }))
+    res.json(ninosBarrio);
+});
+
+router.get('/coordenadas/estudiante', (req, res) => {
+    const coordenada = bd.map(dato => ({
+        nombre: dato.nombre, 
+        latitud: dato.latitud,
+        longitud: dato.longitud
+    }))
+    res.json(coordenada);
+});
+
 
 router.post('/', (req, res) => {
     const { id,nombre,padre, madre,barrio,telefono } = req.body;

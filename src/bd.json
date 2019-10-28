@@ -5,7 +5,9 @@
         "padre": "Jesus Hincapie",
         "madre": "Gloria Gasca",
         "barrio": "Belen",
-        "telefono": "4547519"
+        "telefono": "4547519",
+        "latitud": "x58dx595",
+        "longitud": "y4fr8s2f"
     },
     {
         "id": "451835",
@@ -13,7 +15,9 @@
         "padre": "Jaime Echeverry",
         "madre": "Bell Manrique",
         "barrio": "Poblado",
-        "telefono": "2328517"
+        "telefono": "2328517",
+        "latitud": "x6gir8sfd",
+        "longitud": "y9dhd71e"
     },
     {
         "id": "245189",
@@ -21,7 +25,9 @@
         "padre": "Cristian Monsalve",
         "madre": "Daniela Villegas",
         "barrio": "Poblado",
-        "telefono": "1451692"
+        "telefono": "1451692",
+        "latitud": "x6gir8sñe",
+        "longitud": "y9dhd58e"
     },
     {
         "id": "3451892",
@@ -29,6 +35,8 @@
         "padre": "Cristian Chica",
         "madre": "Juliana Lenis",
         "barrio": "Manrique",
-        "telefono": "7521489"
+        "telefono": "7521489",
+        "latitud": "xf8s6fe6",
+        "longitud": "yef5d78d"
     }
 ]
